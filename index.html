@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="src/styles/styles.css" />
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Nutri AI</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <i class="fa-solid fa-burger" id="nav_logo"> Nutri AI</i>
+
+        <ul id="nav_list">
+          <li class="nav-item active">
+            <a href="#home">Início</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu">Planos</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonials">Avaliações</a>
+          </li>
+        </ul>
+
+        <button class="btn-default">Inscreva-se</button>
+
+        <button id="mobile_btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+
+      <div id="mobile_menu">
+        <ul id="mobile_nav_list">
+          <li class="nav-item">
+            <a href="#home">Início</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu">Planos</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonials">Avaliações</a>
+          </li>
+        </ul>
+
+        <button class="btn-default">Inscreva-se</button>
+      </div>
+    </header>
+
+    <main id="content">
+      <section id="home">
+        <div class="shape"></div>
+        <div id="cta">
+          <h1 class="title">
+            O futuro está
+            <span>aqui</span>
+          </h1>
+
+          <p class="description">
+            Site criado para um bot de IA em nutrição, oferecendo orientações personalizadas e apoio diário para hábitos mais saudáveis.
+Tudo de forma simples, rápida e inteligente.
+          </p>
+
+          <div id="cta_buttons">
+            <a href="#" class="btn-default"> Inscrever-se </a>
+
+            <a href="tel:+55555555555" id="phone_button">
+              <button class="btn-default">
+                <i class="fa-solid fa-phone"></i>
+              </button>
+              (84) 99458-0829
+            </a>
+          </div>
+
+          <div class="social-media-buttons">
+            <a href="">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+
+            <a href="">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </div>
+        </div>
+
+        <div id="banner">
+          <img src="src/images/imagem-bot.png" alt="" />
+        </div>
+      </section>
+
+      <section id="menu">
+        <h2 class="section-title">Planos</h2>
+        <h3 class="section-subtitle">Nossos planos especiais</h3>
+
+        <div id="dishes">
+          <div class="dish">
+            <h1>Básico</h1>
+
+            <h3 class="dish-title">Plano simples</h3>
+
+            <span class="dish-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </span>
+
+            <div class="dish-rate"></div>
+
+            <div class="dish-price">
+              <h4>R$19,99</h4>
+              <button class="btn-default">
+                <i class="fa-solid fa-basket-shopping"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="dish">
+            <h1>Padrão</h1>
+
+            <h3 class="dish-title">Plano Padrão</h3>
+
+            <span class="dish-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </span>
+
+            <div class="dish-rate"></div>
+
+            <div class="dish-price">
+              <h4>R$29,99</h4>
+              <button class="btn-default">
+                <i class="fa-solid fa-basket-shopping"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="dish">
+            <h1>Premium</h1>
+
+            <h3 class="dish-title">Plano recomendado</h3>
+
+            <span class="dish-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </span>
+
+            <div class="dish-rate"></div>
+
+            <div class="dish-price">
+              <h4>R$49,99</h4>
+              <button class="btn-default">
+                <i class="fa-solid fa-basket-shopping"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="dish">
+            <h1>Personalizado</h1>
+
+            <h3 class="dish-title">Crie o seu plano</h3>
+
+            <span class="dish-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </span>
+
+            <div class="dish-rate"></div>
+
+            <div class="dish-price">
+              <h4>A partir de R$19,99</h4>
+              <button class="btn-default">
+                <i class="fa-solid fa-basket-shopping"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials">
+        <img src="src/images/imagem-fundo.jpg" id="testimonial_chef" alt="" />
+
+        <div id="testimonials_content">
+          <h2 class="section-title">Depoimentos</h2>
+          <h3 class="section-subtitle">O que os clientes falam sobre nós</h3>
+
+          <div id="feedbacks">
+            <div class="feedback">
+              <img
+                src="src/images/avatar.jpeg"
+                class="feedback-avatar"
+                alt=""
+              />
+
+              <div class="feedback-content">
+                <p>
+                  Dayvid Delas
+                  <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                </p>
+                <p>
+                  “Entrei no site só pra dar uma olhadinha… quando vi, já estava
+                  conversando há horas 😏 O bot de IA é rápido, inteligente e
+                  responde melhor do que muita gente por aí. Site bonito, fácil
+                  de usar e perigoso: vicia fácil. Recomendo demais!”
+                </p>
+              </div>
+            </div>
+
+            <div class="feedback">
+              <img
+                src="src/images/avatar.jpeg"
+                class="feedback-avatar"
+                alt=""
+              />
+
+              <div class="feedback-content">
+                <p>
+                  Dayvid Delas
+                  <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                </p>
+                <p>
+                  “Confesso que fui sem expectativa, mas o site me ganhou em
+                  poucos cliques 😂 O bot de IA entende tudo de primeira,
+                  responde no ponto certo e nunca me deixa no vácuo. Experiência
+                  gostosa do começo ao fim. Com certeza volto sempre!”
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn-default">Ver mais avaliações</button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <img src="src/images/wave.svg" alt="" />
+
+      <div id="footer_items">
+        <span id="copyright"> &copy 2026 Jackson Silva </span>
+
+        <div class="social-media-buttons">
+          <a href="">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+
+          <a href="">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a href="">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="src/javascript/script.js"></script>
+  </body>
+</html>
